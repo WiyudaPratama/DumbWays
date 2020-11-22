@@ -1,12 +1,9 @@
 var one = 1;
-var three = 3;
+var two = 2;
 
-var count = one * three;
+function add() {
+  return one + two;
+}
 
-// console.log(count);
-
-var firstName = "Wiyuda";
-var middleName = "Pratama";
-var lastName = "Mahardika";
-
-console.log(firstName + ' ' + middleName + ' ' + lastName + (one + three));
+var result = add();
+console.log(result);
