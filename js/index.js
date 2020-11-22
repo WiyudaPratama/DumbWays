@@ -1,9 +1,10 @@
-var one = 1;
-var two = 2;
+var person = {
+  firstName : "Wiyuda",
+  lastName : "Pratama",
+  age : 20,
+  walk() {
+    return "Wiyuda go to run";
+  }
+};
 
-function add() {
-  return one + two;
-}
-
-var result = add();
-console.log(result);
+console.log(person.walk());   
