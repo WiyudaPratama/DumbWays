@@ -1,3 +1,4 @@
+// if
 // var totalBelanja = prompt("Total belanja anda?", 0) //promt => menampung data dalam inputan
 
 // if(totalBelanja > 3000) {
@@ -6,6 +7,7 @@
 
 // document.write("<p>Terimakasi sudah berbelanja ditoko kami</p>")
 
+// if dan else
 var password = prompt("Masukkan Password Anda! : ")
 
 if(password == "wiyuda") {
